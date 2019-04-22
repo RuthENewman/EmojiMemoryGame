@@ -54,7 +54,7 @@ body {
   transform: rotateY(180deg);
 }
 
-@media screen only and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   .memory-game {
       width: 400px;
       height: 320px;
