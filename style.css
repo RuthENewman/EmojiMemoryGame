@@ -53,3 +53,14 @@ body {
 .front-face {
   transform: rotateY(180deg);
 }
+
+@media screen only and (max-device-width: 480px) {
+  .memory-game {
+      width: 400px;
+      height: 320px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      perspective: 1000px;
+  }
+}
